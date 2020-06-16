@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hypixelbruhstal",
+  "name": "Hypixel Bruh-Stal Mod",
+  "description": "Hypixel mod which plays the BRUH sound effect when you die or kill a player, and plays Stal when you win.\n\nFeatures:\n\n/bruhmod: enables/disables the entirety of the Bruh Mod.\n\n/bruhmod kill: enables/disables the BRUH sound effect when a player is killed.\n\n/bruhmod die: enables/disables the BRUH sound effect when you die.\n\n/bruhmod nick [your nick]: will also play BRUH/Stal for the nick entered.\n\n/stalmod: enables/disables the Stal music that plays when you win.\n\n/stalmod nick [your nick]: will also play BRUH/Stal for the nick entered.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LifeKnight"],
+  "credits": "Refraction and Sk1er for the ideas, the creator of the BRUH sound effect and C418 for Stal.",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
