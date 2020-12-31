@@ -103,11 +103,13 @@ public class Config {
 		String bruhModKillString = bruhModKill ? "bruhModKill = true" : "bruhModKill = false";
 		String bruhModDieString = bruhModDie ? "bruhModDie = true" : "bruhModDie = false";
 		String stalModRunString = stalModRun ? "stalModRun = true" : "stalModRun = false";
+		String debugString = debug ? "debug = true" : "debug = false";
 
 		writeInConfig(bruhModRunString + System.getProperty("line.separator") +
 				bruhModKillString + System.getProperty("line.separator") +
 				bruhModDieString + System.getProperty("line.separator") +
 				stalModRunString + System.getProperty("line.separator") +
+				debugString + System.getProperty("line.separator") +
 				"nick = " + nick, "hypixelbruhstal");
 
 	}

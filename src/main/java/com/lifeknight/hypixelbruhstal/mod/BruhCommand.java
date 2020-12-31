@@ -66,6 +66,9 @@ public class BruhCommand extends CommandBase {
 				} else {
 					Chat.sendChatMessage(EnumChatFormatting.DARK_GREEN + "/bruhmod nick [your nick]");
 				}
+			} else if (arg1[0].equalsIgnoreCase("debug")) {
+				debug = !debug;
+				Chat.sendChatMessage("Debug: " + (debug ? "ENABLED" : "DISABLED"));
 			} else {
 				Chat.sendChatMessage(EnumChatFormatting.DARK_GREEN + "/bruhmod, /bruhmod kill, /bruhmod die, /bruhmod nick");
 			}
